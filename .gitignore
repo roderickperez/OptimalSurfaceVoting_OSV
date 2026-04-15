@@ -1,19 +1,35 @@
-#*.class
+# OS/editor
+.DS_Store
+.vscode/
+.venv/
+.ipynb_checkpoints/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Python cache
+__pycache__/
+*.py[cod]
 
+# Java/Gradle build artifacts
 .gradle/
+build/
+*.class
 
-# Package Files #
-#*.jar
-#*.war
-#*.ear
+# Local runtime outputs and scratch data
+notebooks/
+tmp_osv/
+tmp_in.dat
+faultseg_text.txt
+wu17sfi_text.txt
+workbench.xmi
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# Local F3 sample input and reference PDFs
+/data/F3/
+/referenceDocumentation/*.pdf
+
+# FaultSeg training/inference artifacts
+/faultSeg_2019_pyTorch/__pycache__/
+/faultSeg_2019_pyTorch/data/
+/faultSeg_2019_pyTorch/model/
+/faultSeg_2019_pyTorch/output/
+
+# Original demo-specific local data that should remain local only
 /data/3d/f3d/*.dat
-#/src
-#/build
-#/libs
-/workbench.xmi
-/.gradle

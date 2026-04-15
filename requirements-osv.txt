@@ -1,0 +1,31 @@
+# OSV Python Port Requirements
+# Optimized for NVIDIA A5000 GPU
+
+# Core
+numpy
+scipy
+pandas
+tqdm
+
+# Visualization
+matplotlib
+pyvista[all]
+trame
+trame-vuetify
+trame-vtk
+
+# Machine Learning & GPU Training
+torch
+torchvision
+torchaudio
+
+# Seismic Data Handling
+segyio
+
+# Image Processing
+scikit-image
+opencv-python
+
+# Utilities
+ipykernel
+marimo
